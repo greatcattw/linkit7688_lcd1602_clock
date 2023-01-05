@@ -1,9 +1,12 @@
-Object : The example of LCD1602 i2c proc driver and clock application
+# Object : The example of LCD1602 i2c proc driver and clock application
 
-Test HW: Linkit 7688
-Test SW: openwrit 3.18.109
+![pic](demo.jpg)<br><br><br>
 
-Usage:
+
+## Test HW: Linkit 7688
+## Test SW: openwrit 3.18.109
+
+## Usage:
 	copy lcd1602i2c2 to openwrt/package/kernel
 	make menuconfig
 		select
