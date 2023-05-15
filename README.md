@@ -44,11 +44,11 @@
 ---
 
 ## RTC class:
-Linkit7688, openwrt 15.05.1, linux 3.18.109 
-預設RTC class沒開,需要啟用 
-make kernel_menuconfig 
-  Device Driver 
-    []Real Time Clock 
+ Linkit7688, openwrt 15.05.1, linux 3.18.109 
+ 預設RTC class沒開,需要啟用 
+ make kernel_menuconfig 
+   Device Driver 
+     []Real Time Clock 
 
 
 預設i2c_ralink而不是I2C, 需要啟用 
