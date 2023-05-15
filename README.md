@@ -41,8 +41,9 @@
 
 	reboot Linkit 7688 and LCD show time.
 
+---
 
-##RTC class
+## RTC class:
 Linkit7688, openwrt 15.05.1, linux 3.18.109
 預設RTC class沒開,需要啟用
 make kernel_menuconfig
