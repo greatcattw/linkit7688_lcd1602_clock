@@ -5,6 +5,7 @@
 
 ## Test HW: Linkit 7688
 ## Test SW: openwrit 3.18.109
+## LCD I2C at 0x27, RTC pcf8563 at 0x51
 
 ## Usage:
 	copy lcd1602i2c2 to openwrt/package/kernel
@@ -60,7 +61,7 @@
 	編出rtc-ds1307.ko / rtc-pcf8563.ko後,要把I2C關掉, 不然系統開機時會與i2c_ralink沖突而報錯. 
 
 	開機就掛載rtc-ds1307.ko 
-	把rtc-ds1307.k 
+	把rtc-ds1307.ko
 	拷到 /lib/modules/3.18.109 
 	在/etc/modules.d內,加檔案60-rtc 
 	內容為一行字串 
