@@ -42,6 +42,14 @@
 
 	reboot Linkit 7688 and LCD show time.
 
+## Install from ipk
+	opkg install --force-depends kmod-lcd1602i2c_3.18.109-ramips-1_ramips_24kec.ipk		
+	opkg install clock_gcat_1_ramips_24kec.ipk  
+	opkg install clock_gcat_set_autorun_1_ramips_24kec.ipk  
+
+ 	reboot Linkit 7688 and LCD show time.  
+
+
 ---
 
 ## RTC class:
